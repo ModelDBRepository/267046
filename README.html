@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <p>
+            This is the simulation code that Calvin and Redish used in their 2021 model. Data from those simulations are available at
+            <a href="https://osf.io/79uhy/">https://osf.io/79uhy/</a>.
+            If there are any issues or questions about  the code then please let Olivia Calvin know by emailing her at ocalvin@umn.edu or 
+            David Redish at redish@umn.edu.
+        </p>
+        <p>
+            Simulations should be run by using the 4 laboratories in the root of the folder. They are currently set to just display the
+            functioning and do not collect data but can be set to record using the boolean variable collectData. When collectData is True the
+            simulations can, and should, be run via command line because you can pass parameters and the desired output location. When
+            collecting data, it is recommended that you set the shwTrials variable to False so that it does not create a new set of plots
+            with each trial.
+        </p>
+        <p>
+            Please note that the behavior saved to the 'dpx.csv' file is not what was presented in the manuscript. Our behavior model was not
+            sophisticated enough and our solution required some measures that could only be created after the fact. To recreate the decision
+            process utilize the functions in 
+            <code>./DPXAnalysis2021/tunecurve.py</code>
+            and 
+            <code>./DPXAnalysis2021/dpx.py</code>
+            to create tuning curves of neural
+            activity and to recreate the reaction times from those curves, respectively. 
+        </p>
+    </body>
+</html>
